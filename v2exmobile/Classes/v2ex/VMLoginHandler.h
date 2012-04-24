@@ -13,10 +13,10 @@
 @protocol LoginHandlerDelegate;
 @interface VMLoginHandler : NSObject <VMAccountDalegate, UIAlertViewDelegate>
 {
-    id<LoginHandlerDelegate> _delegate;
+    id<LoginHandlerDelegate> __unsafe_unretained _delegate;
 }
 
-@property id<LoginHandlerDelegate> delegate;
+@property (unsafe_unretained) id<LoginHandlerDelegate> delegate;
 
 - (id)initWithDelegate:(id<LoginHandlerDelegate>)delegate;
 - (void)login;

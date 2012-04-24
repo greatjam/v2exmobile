@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72C38B2615467B2A009D1C4F /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C38B2215467B2A009D1C4F /* HTMLNode.m */; };
+		72C38B2715467B2A009D1C4F /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C38B2415467B2A009D1C4F /* HTMLParser.m */; };
+		72C38B2815467B2A009D1C4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72C38B2515467B2A009D1C4F /* README.md */; };
 		BF1351A1151768BD003275FB /* VMFavoriteNodesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1351A0151768BD003275FB /* VMFavoriteNodesLoader.m */; };
 		BF1351A41517697C003275FB /* VMNotificationsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1351A31517697C003275FB /* VMNotificationsLoader.m */; };
 		BF1351A715177F88003275FB /* VMLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1351A615177F88003275FB /* VMLoader.m */; };
@@ -29,9 +32,6 @@
 		BF558E6F1514D70D0011C8A9 /* VMwaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF558E6E1514D70D0011C8A9 /* VMwaitingView.m */; };
 		BF558E721514DE7B0011C8A9 /* VMInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF558E711514DE7B0011C8A9 /* VMInfoView.m */; };
 		BF558E751515B2FD0011C8A9 /* Commen.m in Sources */ = {isa = PBXBuildFile; fileRef = BF558E741515B2FD0011C8A9 /* Commen.m */; };
-		BF57471E153EE9C200549EF0 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57471A153EE9C200549EF0 /* HTMLNode.m */; };
-		BF57471F153EE9C200549EF0 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57471C153EE9C200549EF0 /* HTMLParser.m */; };
-		BF574720153EE9C200549EF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF57471D153EE9C200549EF0 /* README.md */; };
 		BF5CA6F815178B200072CEE7 /* VMFavoriteTopicsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA6F715178B200072CEE7 /* VMFavoriteTopicsLoader.m */; };
 		BF5CA6FB15178FFE0072CEE7 /* VMFavoriteMembersLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA6FA15178FFE0072CEE7 /* VMFavoriteMembersLoader.m */; };
 		BF5CA7011517974D0072CEE7 /* VMMemberLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CA7001517974D0072CEE7 /* VMMemberLoader.m */; };
@@ -70,6 +70,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72C38B2115467B2A009D1C4F /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		72C38B2215467B2A009D1C4F /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		72C38B2315467B2A009D1C4F /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		72C38B2415467B2A009D1C4F /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		72C38B2515467B2A009D1C4F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BF13519F151768BD003275FB /* VMFavoriteNodesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMFavoriteNodesLoader.h; path = Classes/v2ex/VMFavoriteNodesLoader.h; sourceTree = "<group>"; };
 		BF1351A0151768BD003275FB /* VMFavoriteNodesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMFavoriteNodesLoader.m; path = Classes/v2ex/VMFavoriteNodesLoader.m; sourceTree = "<group>"; };
 		BF1351A21517697C003275FB /* VMNotificationsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMNotificationsLoader.h; path = Classes/v2ex/VMNotificationsLoader.h; sourceTree = "<group>"; };
@@ -108,11 +113,6 @@
 		BF558E731515B2FD0011C8A9 /* Commen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Commen.h; path = Classes/Commen/Commen.h; sourceTree = "<group>"; };
 		BF558E741515B2FD0011C8A9 /* Commen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Commen.m; path = Classes/Commen/Commen.m; sourceTree = "<group>"; };
 		BF558E761515B3180011C8A9 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Classes/Commen/Config.h; sourceTree = "<group>"; };
-		BF574719153EE9C200549EF0 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLNode.h; path = "Classes/3rd-party/Objective-C-HMTL-Parser-iOS5/HTMLNode.h"; sourceTree = "<group>"; };
-		BF57471A153EE9C200549EF0 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLNode.m; path = "Classes/3rd-party/Objective-C-HMTL-Parser-iOS5/HTMLNode.m"; sourceTree = "<group>"; };
-		BF57471B153EE9C200549EF0 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLParser.h; path = "Classes/3rd-party/Objective-C-HMTL-Parser-iOS5/HTMLParser.h"; sourceTree = "<group>"; };
-		BF57471C153EE9C200549EF0 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLParser.m; path = "Classes/3rd-party/Objective-C-HMTL-Parser-iOS5/HTMLParser.m"; sourceTree = "<group>"; };
-		BF57471D153EE9C200549EF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "Classes/3rd-party/Objective-C-HMTL-Parser-iOS5/README.md"; sourceTree = "<group>"; };
 		BF5CA6F615178B200072CEE7 /* VMFavoriteTopicsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMFavoriteTopicsLoader.h; path = Classes/v2ex/VMFavoriteTopicsLoader.h; sourceTree = "<group>"; };
 		BF5CA6F715178B200072CEE7 /* VMFavoriteTopicsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMFavoriteTopicsLoader.m; path = Classes/v2ex/VMFavoriteTopicsLoader.m; sourceTree = "<group>"; };
 		BF5CA6F915178FFE0072CEE7 /* VMFavoriteMembersLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMFavoriteMembersLoader.h; path = Classes/v2ex/VMFavoriteMembersLoader.h; sourceTree = "<group>"; };
@@ -209,11 +209,11 @@
 		BF574710153EE64600549EF0 /* HMTL-Parser */ = {
 			isa = PBXGroup;
 			children = (
-				BF574719153EE9C200549EF0 /* HTMLNode.h */,
-				BF57471A153EE9C200549EF0 /* HTMLNode.m */,
-				BF57471B153EE9C200549EF0 /* HTMLParser.h */,
-				BF57471C153EE9C200549EF0 /* HTMLParser.m */,
-				BF57471D153EE9C200549EF0 /* README.md */,
+				72C38B2115467B2A009D1C4F /* HTMLNode.h */,
+				72C38B2215467B2A009D1C4F /* HTMLNode.m */,
+				72C38B2315467B2A009D1C4F /* HTMLParser.h */,
+				72C38B2415467B2A009D1C4F /* HTMLParser.m */,
+				72C38B2515467B2A009D1C4F /* README.md */,
 			);
 			name = "HMTL-Parser";
 			sourceTree = "<group>";
@@ -448,7 +448,7 @@
 				BF48BA361529FAC100404ACA /* icon-node@2x.png in Resources */,
 				BF685F0E152B74BD00097B3B /* v2exmobile-icon.png in Resources */,
 				BF685F10152B74C100097B3B /* v2exmobile-icon@2x.png in Resources */,
-				BF574720153EE9C200549EF0 /* README.md in Resources */,
+				72C38B2815467B2A009D1C4F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +492,8 @@
 				BFD04998151B3168008B3107 /* VMMemberVC.m in Sources */,
 				BF4831B7151F155500051337 /* VMWebContentVC.m in Sources */,
 				BF4831BB151F221900051337 /* VMMiniBrowser.m in Sources */,
-				BF57471E153EE9C200549EF0 /* HTMLNode.m in Sources */,
-				BF57471F153EE9C200549EF0 /* HTMLParser.m in Sources */,
+				72C38B2615467B2A009D1C4F /* HTMLNode.m in Sources */,
+				72C38B2715467B2A009D1C4F /* HTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "v2exmobile/v2exmobile-Prefix.pch";
 				INFOPLIST_FILE = "v2exmobile/v2exmobile-Info.plist";
@@ -574,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "v2exmobile/v2exmobile-Prefix.pch";
 				INFOPLIST_FILE = "v2exmobile/v2exmobile-Info.plist";

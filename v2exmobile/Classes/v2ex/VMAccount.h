@@ -18,12 +18,12 @@
     NSMutableData *webdata;
     NSString *cookieFilePath;
     NSString *usernameFilePath;
-    NSString *_username;
+    NSString *__weak _username;
 //    NSMutableData *webData;
 }
 
 @property (strong) NSHTTPCookie *cookie;
-@property (readonly) NSString *username;
+@property (weak, readonly) NSString *username;
 @property (strong) id <VMAccountDalegate> delegate;
 
 - (id)init;
